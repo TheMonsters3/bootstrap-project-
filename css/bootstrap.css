@@ -2,12 +2,30 @@
 
 }
 
+body{
+    background-color: lightgrey;
+}
+
 .title {
     text-align: center;
+    font-family: 'Abel', sans-serif;
 }
 
 .navbar {
     display:flex;
     justify-content: space-evenly;
+    font-family: 'Abel', sans-serif;
+
 }
 
+.logo {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.info {
+    text-align: center;
+    font-family: ‘Anton’, sans-serif;
+    font-size: 40px;
+}
