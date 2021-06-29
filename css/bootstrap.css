@@ -48,7 +48,7 @@
         width:inherit;
         height:auto;
         top:50%;
-        right:5%;
+        right:8%;
         transform:translateY(-50%);
         text-align:center;
         vertical-align: middle;
@@ -93,15 +93,14 @@
         margin: 10% auto;
         border-radius: 50%;
         position:relative;
-        border:20px solid white;
+        border:8px solid white;
     }
 
 
     .info2 {
         text-align: center;
         font-family: 'Abel', sans-serif;
-        font-size: 32px;
-        margin-top: 300px;
+        margin-top: 100px;
     }
 
     .row > img {
@@ -116,39 +115,12 @@
     }
 
     .smallcircle {
-        width:18px;
-        height:18px;
-        background: #00ABA9;
+        width:25px;
+        height:25px;
         margin: 10% auto;
         border-radius: 50%;
         position: relative;
 
     }
-    .smallcircle1 {
-        width:18px;
-        height:18px;
-        background: #00ABA9;
-        margin: 10% auto;
-        border-radius: 50%;
-        position: relative;
 
-    }
-    .smallcircle2 {
-        width:18px;
-        height:18px;
-        background: #00ABA9;
-        margin: 10% auto;
-        border-radius: 50%;
-        position: relative;
-
-    }
-    .smallcircle3 {
-        width:18px;
-        height:18px;
-        background: #00ABA9;
-        margin: 10% auto;
-        border-radius: 50%;
-        position: relative;
-
-    }
 }
