@@ -56,6 +56,19 @@
         font-family: 'Anton', sans-serif;
 
     }
+    .content1 {
+        position:relative;
+        width:inherit;
+        height:auto;
+        top:50%;
+        right:5%;
+        transform:translateY(-50%);
+        text-align:center;
+        vertical-align: middle;
+        color: black;
+        font-family: 'Anton', sans-serif;
+
+    }
 
 
     .circle {
@@ -109,5 +122,47 @@
     .info2 > img {
         border: solid 20px #d2d2d2;
         border-radius: 25px;
+    }
+
+    .info3 {
+        text-align: left;
+        font-family: 'Abel', sans-serif;
+    }
+
+    .smallcircle {
+        width:18px;
+        height:18px;
+        background: #00ABA9;
+        margin: 10% auto;
+        border-radius: 50%;
+        position: relative;
+
+    }
+    .smallcircle1 {
+        width:18px;
+        height:18px;
+        background: #00ABA9;
+        margin: 10% auto;
+        border-radius: 50%;
+        position: relative;
+
+    }
+    .smallcircle2 {
+        width:18px;
+        height:18px;
+        background: #00ABA9;
+        margin: 10% auto;
+        border-radius: 50%;
+        position: relative;
+
+    }
+    .smallcircle3 {
+        width:18px;
+        height:18px;
+        background: #00ABA9;
+        margin: 10% auto;
+        border-radius: 50%;
+        position: relative;
+
     }
 }
