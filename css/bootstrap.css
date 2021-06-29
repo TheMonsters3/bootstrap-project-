@@ -36,13 +36,13 @@
 
     }
 
-    h1 {
-        font-size:90px ;
-    }
-    h2{
-        font-size:80px;
-        text-align: center;
-    }
+    /*h1 {*/
+    /*    font-size:90px ;*/
+    /*}*/
+    /*h2{*/
+    /*    font-size:80px;*/
+    /*    text-align: center;*/
+    /*}*/
     .content {
         position:relative;
         width:inherit;
@@ -70,58 +70,44 @@
 
     }
 
+    .red{
+        background: #E6563B;
+    }
+
+    .teal{
+        background: #00ABA9;
+    }
+
+    .green{
+        background: #7CB06C;
+    }
+
+    .yellow{
+        background: #DEA03D;
+    }
+
 
     .circle {
-        width:400px;
-        height:400px;
-        background: #E6563B;
+        width:100px;
+        height:100px;
         margin: 10% auto;
         border-radius: 50%;
         position:relative;
         border:20px solid white;
-
     }
-    .circle2 {
-        width:400px;
-        height:400px;
-        background: #DEA03D;
-        margin: 10% auto;
-        border-radius: 50%;
-        position:relative;
-        border:20px solid white;
 
-    }
-    .circle3 {
-        width:400px;
-        height:400px;
-        background: #7CB06C;
-        margin: 10% auto;
-        border-radius: 50%;
-        position:relative;
-        border:20px solid white;
-
-    }
-    .circle4 {
-        width:400px;
-        height:400px;
-        background: #00ABA9;
-        margin: 10% auto;
-        border-radius: 50%;
-        position: relative;
-        border:20px solid white;
-
-    }
 
     .info2 {
         text-align: center;
         font-family: 'Abel', sans-serif;
         font-size: 32px;
-        padding-top: 300px;
+        margin-top: 300px;
     }
 
-    .info2 > img {
-        border: solid 20px #d2d2d2;
-        border-radius: 25px;
+    .row > img {
+        border: solid 15px #d2d2d2;
+        border-radius: 20px;
+        padding: 0;
     }
 
     .info3 {
