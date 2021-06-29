@@ -57,6 +57,7 @@
 
     }
 
+
     .circle {
         width:400px;
         height:400px;
@@ -93,18 +94,9 @@
         background: #00ABA9;
         margin: 10% auto;
         border-radius: 50%;
-        position:relative;
+        position: relative;
         border:20px solid white;
 
-    }
-    .row {
-        display:flex;
-    }
-
-    .col {
-        float: left;
-        width: 33.33%;
-        padding: 5px;
     }
 
     .info2 {
