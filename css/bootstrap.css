@@ -20,10 +20,15 @@
         margin-right: auto;
     }
 
-    h1, h2, h3, h5, h6 {
+    h1, h2, h5, h6 {
         font-family: 'Anton', sans-serif;
         text-transform: uppercase;
         text-align: center;
+    }
+
+    h3 {
+        font-size: 28px;
+        font-family: 'Anton', sans-serif;
     }
 
     h6 {
@@ -62,6 +67,7 @@
         width:105px;
         height:105px;
         border-radius: 50%;
+        color: white;
         border:5px solid white;
     }
 
@@ -72,12 +78,6 @@
         margin-top: 100px;
     }
 
-    .row > img {
-        border: solid 15px #d2d2d2;
-        border-radius: 20px;
-        padding: 0;
-    }
-
 
     .smallcircle {
         width:18px;
@@ -86,6 +86,8 @@
 
     }
 
-
-
-}
+    .border image {
+        border: solid #e6e6e6 5px;
+        border-radius: 5px;
+        width: 90%;
+    }
